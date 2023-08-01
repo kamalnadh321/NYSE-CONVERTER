@@ -3,7 +3,8 @@ import glob
 import uuid
 import os
 import pandas as pd
-
+#folder paths are hard coded
+#schemas.json path is also hard coded
 
 def get_columns(ds):
     with open('data/retail_db/schemas.json') as fp:
