@@ -5,7 +5,7 @@ import os
 import pandas as pd
 #folder paths are hard coded
 #schemas.json path is also hard coded
-
+#modularization with reusability
 def get_columns(ds):
     with open('data/retail_db/schemas.json') as fp:
         schemas = json.load(fp)
